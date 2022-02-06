@@ -3,7 +3,7 @@ function compareArrays(arr1, arr2) {
 
   // Ваш код
 
-  let result;
+
   return (arr1.length === arr2.length) && (arr1.every((val,idx) => val === arr2[idx]));
 }
 
