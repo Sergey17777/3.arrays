@@ -1,5 +1,5 @@
 function compareArrays(arr1, arr2) {
-  let result;
+
 
   // Ваш код
 
@@ -8,7 +8,6 @@ function compareArrays(arr1, arr2) {
 }
 
 function advancedFilter(arr) {
-  let resultArr;
 
   // Ваш код
   return arr.filter(val => val > 0).filter(val => val % 3 === 0).map(val => val * 10);
